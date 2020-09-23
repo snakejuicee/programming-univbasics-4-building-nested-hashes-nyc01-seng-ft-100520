@@ -1,8 +1,6 @@
 def base_hash
-  my_hash {
-    :railroads => {
-      
-    }
+  my_hash = {
+    :railroads => {}
   }
 
 end
@@ -12,16 +10,8 @@ def monopoly_with_second_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-  my_hash {
-    :railroads => {
-      :pieces => 4,
-      :rent_in_dollars => {
-        
-      },
-      :names => {
-        
-      }
-    }
+  my_hash = {
+    :railroads => {:pieces => 4, :rent_in_dollars => {}, :names => {}}
   }
 
 end
@@ -31,7 +21,7 @@ def monopoly_with_third_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-  my_hash {
+  my_hash = {
     
     :railroads => {
       
@@ -45,18 +35,10 @@ def monopoly_with_third_tier
       },
       
       :names => {
-        :reading_railroad => {
-          
-        },
-        :pennsylvania_railroad => {
-          
-        },
-        :b_and_o_railroad => {
-          
-        },
-        :shortline_railroad => {
-          
-        }
+        :reading_railroad => {},
+        :pennsylvania_railroad => {},
+        :b_and_o_railroad => {},
+        :shortline_railroad => {}
       }
     }
   }
@@ -69,7 +51,7 @@ def monopoly_with_fourth_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   
-   my_hash {
+   my_hash = {
     
     :railroads => {
       
@@ -79,7 +61,7 @@ def monopoly_with_fourth_tier
         :one_piece_owned => 25,
         :two_pieces_owned => 50,
         :three_pieces_owned => 100,
-        :four_pieces_owned => 200,
+        :four_pieces_owned => 200
       },
       
       :names => {
